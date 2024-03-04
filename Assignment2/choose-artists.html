@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./choose-artists.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akronim:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+</head>
+
+<body>
+    <div class="choose-artists">
+        <div class="frame-a">
+            <div class="frame-b">
+                <img class="chevronleft-icon" loading="lazy" alt="" src="./public/chevronleft.svg" />
+
+                <div class="choose-3-or">Choose 3 or more artists you like.</div>
+            </div>
+        </div>
+        <header class="frame-e">
+            <div class="frame-f">
+                <div class="frame-f-child"></div>
+                <img class="search-icon2" alt="" src="./public/search.svg" />
+
+                <input class="search1" placeholder="Search" type="text" />
+            </div>
+        </header>
+        <main class="main-frameset">
+            <div class="next">Next</div>
+            <img class="img-2762-1-icon" alt="" src="./public/img-2762-1@2x.png" id="iMG27621Image" />
+        </main>
+    </div>
+
+    <script>
+        var iMG27621Image = document.getElementById("iMG27621Image");
+        if (iMG27621Image) {
+            iMG27621Image.addEventListener("click", function (e) {
+                window.location.href = "./chose-podcasts.html";
+            });
+        }
+    </script>
+</body>
+
+</html>

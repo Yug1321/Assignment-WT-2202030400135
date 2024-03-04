@@ -1,0 +1,136 @@
+.chevronleft-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+}
+
+.choose-3-or {
+    flex: 1;
+    position: relative;
+}
+
+.frame-a,
+.frame-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.frame-b {
+    flex: 1;
+    align-items: center;
+    gap: 0 24px;
+}
+
+.frame-a {
+    width: 373px;
+    align-items: flex-start;
+    padding: 0 var(--padding-5xl);
+    box-sizing: border-box;
+}
+
+.frame-f-child {
+    height: 42px;
+    width: 369px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-whitesmoke);
+    display: none;
+}
+
+.search-icon2,
+.search1 {
+    position: relative;
+    z-index: 1;
+}
+
+.search-icon2 {
+    height: 17px;
+    width: 17px;
+    min-height: 17px;
+}
+
+.search1 {
+    width: 58px;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-family: var(--font-open-sans);
+    font-size: var(--font-size-sm);
+    background-color: transparent;
+    height: 15px;
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+}
+
+.frame-e,
+.frame-f {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-f {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-whitesmoke);
+    padding: var(--padding-smi) var(--padding-5xs) var(--padding-xs);
+    gap: 0 5px;
+}
+
+.frame-e {
+    align-self: stretch;
+    padding: 0 28px 0 31px;
+}
+
+.next {
+    width: 43px;
+    position: absolute;
+    margin: 0 !important;
+    top: 92px;
+    left: 189px;
+    display: inline-block;
+}
+
+.img-2762-1-icon {
+    height: 776px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.choose-artists,
+.main-frameset {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.main-frameset {
+    align-self: stretch;
+    flex-direction: row;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+}
+
+.choose-artists {
+    width: 100%;
+    background-color: var(--color-gray-200);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-15xl) 0 0;
+    box-sizing: border-box;
+    gap: 21px 0;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-akronim);
+}

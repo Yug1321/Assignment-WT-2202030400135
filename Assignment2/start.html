@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./start.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Akronim:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto Sans JP:wght@500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" />
+</head>
+
+<body>
+    <div class="start">
+        <section class="img-2756-1-parent">
+            <img class="img-2756-1-icon" alt="" src="./public/img-2756-1@2x.png" />
+
+            <img class="brandlogo-icon" loading="lazy" alt="" src="./public/brandlogo.svg" />
+        </section>
+        <div class="start-child"></div>
+        <section class="sign-up-text">
+            <h2 class="millions-of-songs-container">
+                <p class="millions-of-songs">Millions of Songs.</p>
+                <p class="free-on-spotify">Free on Spotify.</p>
+            </h2>
+            <div class="google-signup">
+                <div class="social-media-frame">
+                    <img class="social-media-frame-child" loading="lazy" alt="" src="./public/rectangle-1.svg"
+                        id="rectangle1" />
+
+                    <div class="sign-up-free">Sign up free</div>
+                </div>
+                <button class="social-media-frame1">
+                    <div class="social-media-frame-item"></div>
+                    <img class="component-37-icon" alt="" src="./public/component-37.svg" />
+
+                    <div class="continue-with-google">Continue with Google</div>
+                </button>
+                <button class="social-media-frame2">
+                    <div class="social-media-frame-inner"></div>
+                    <img class="facebook-icon" alt="" src="./public/facebook.svg" />
+
+                    <div class="continue-with-facebook">Continue with Facebook</div>
+                </button>
+                <button class="social-media-frame3">
+                    <div class="rectangle-div"></div>
+                    <div class="divider-line-wrapper">
+                        <img class="divider-line-icon" alt="" src="./public/divider-line.svg" />
+                    </div>
+                    <div class="continue-with-apple">Continue with Apple</div>
+                </button>
+                <div class="login-text">
+                    <div class="log-in">Log in</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        var rectangle1 = document.getElementById("rectangle1");
+        if (rectangle1) {
+            rectangle1.addEventListener("click", function (e) {
+                window.location.href = "./s-ignup.html";
+            });
+        }
+    </script>
+</body>
+
+</html>
